@@ -4,7 +4,7 @@ using namespace std;
 class A {
 public:
 	A(int x, int y, int z) :x(x), y(y), z(z) {}
-	  void show() const {
+	 const void show() const {
 		cout << x << " " << y << " " << z <<" AµÄ"<< endl;
 	}
 protected:
