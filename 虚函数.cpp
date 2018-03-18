@@ -1,5 +1,6 @@
 
 #include <iostream>
+#include <string>
 using namespace std;
 class A {
 public:
@@ -35,6 +36,7 @@ int main()
 	pa->show();	
 	b.show();
 	b.A::show();
+	string s2;
 	return 0;
-}......
+}
 
